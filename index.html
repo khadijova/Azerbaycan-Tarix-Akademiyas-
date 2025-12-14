@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATA - Azərbaycan Tarix Akademiyası</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="logo-text">ATA</div>
+        <div class="subtitle-text">AZƏRBAYCAN TARİX AKADEMİYASI</div>
+    </header>
+
+    <div class="intro-box">
+        <p>Salam! Mən **Azərbaycan Tarix Akademiyasının Süni İntellekt (ATA-Sİ)** sistemiyəm. Mənim vəzifəm, Azərbaycan tarixi ilə bağlı suallarınızı akademik mənbələrə əsaslanaraq cavablandırmaq və faktiki məlumatları təqdim etməkdir.</p>
+        <p class="instruction-text">Zəhmət olmasa, cavabın formatını seçin:</p>
+    </div>
+
+    <div class="format-selection" id="formatSelection">
+        
+        <div class="format-card" id="formatParagraph" data-format="paragraph">
+            <div class="format-title">I. Ətraflı Məqalə/Paraqraf</div>
+            <div class="format-description">Mövzu, hadisələr və şəxsiyyətlər haqqında geniş, izahlı mətn formatında cavablar.</div>
+        </div>
+
+        <div class="format-card" id="formatQnA" data-format="qna">
+            <div class="format-title">II. Faktiki Sual-Cavab/Zaman Xətti</div>
+            <div class="format-description">Konkret il, hadisə və səbəb-nəticə əlaqələri kimi punktlar şəklində cavablar.</div>
+        </div>
+    </div>
+    
+    <div class="chat-area hidden" id="chatArea">
+        <div id="responseDisplay">
+            </div>
+        
+        <div class="input-group">
+            <input type="text" id="questionInput" placeholder="Sualınızı bura yazın...">
+            <button id="sendButton">Göndər</button>
+        </div>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
